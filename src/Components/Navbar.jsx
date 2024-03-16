@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar fixed top-0 navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
-        <Link className="navbar-brand" to="#">Navbar</Link>
+        <Link className="navbar-brand" to="#">DigiNews</Link>
         <button className="navbar-toggler" type="button" onClick={toggleNavbar}>
           <span className="navbar-toggler-icon"></span>
         </button>

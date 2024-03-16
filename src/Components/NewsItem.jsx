@@ -7,8 +7,8 @@ const NewsItem =(props)=>{
   
     return (
       <div className='my-3'>
-        <div className="card" >
-        <span className="notify position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+        <div className="card position-relative"  >
+        <span className="notify position-absolute top-0 start-90 translate-middle badge rounded-pill bg-primary ms-2">
        {!source?"Undefined source":source}
         </span>
     <img className="card-img-top" src={!imageurl ?
